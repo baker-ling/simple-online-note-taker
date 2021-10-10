@@ -1,0 +1,26 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "An online app for taking and managing notes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Baker",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baker-ling/simple-online-note-taker.git"
+  },
+  "keywords": [
+    "notes",
+    "note-taker"
+  ],
+  "bugs": {
+    "url": "https://github.com/baker-ling/simple-online-note-taker/issues"
+  },
+  "homepage": "https://github.com/baker-ling/simple-online-note-taker#readme"
+}

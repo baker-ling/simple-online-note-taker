@@ -43,7 +43,7 @@ notes.post('/', (req, res) => {
     .then(data => {
       const notes = JSON.parse(data);
       notes.push(newNote);
-      return fs.promises.writeFile(DB_PATH, notes);
+      return fs.promises.writeFile(DB_PATH, JSON.stringify(notes));
     })
     .then(() => res.json(`Note added successfully 🚀`))
     .catch(reason => {
@@ -70,7 +70,7 @@ notes.delete('/:id', (req, res) => {
       } else if (filteredNotes.length !== originalNotes.length - 1) {
         throw 'Multiple notes found with matching id';
       }
-      return fs.promises.writeFile(DB_PATH, filteredNotes);
+      return fs.promises.writeFile(DB_PATH, JSON.stringify(filteredNotes));
     })
     .then(() => res.json(`Note deleted successfully 📝 ↷ 🗑`))
     .catch(reason => {

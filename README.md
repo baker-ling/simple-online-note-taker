@@ -42,8 +42,7 @@ Click on the "Get Started" button to begin checking, entering, and discarding yo
 ![Screenshot of notes page](./screencaps/notes.png)
 
 - To create a note:
-  0. If you have an old note open, click the plus sign in the upper left corner.
-  1. Click on where it says "Note Title" and type in a title.
+  1. (If you have an old note open, click the plus sign in the upper left corner.) Click on where it says "Note Title" and type in a title.
   2. Click on where it says "Note Text" and type in the text of your note.
   3. Click on the "💾" icon next to the plus sign in the upper left to save the note. (This icon appears after you type in some text as the content of your note.)
 
